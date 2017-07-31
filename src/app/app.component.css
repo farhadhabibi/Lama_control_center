@@ -1,0 +1,41 @@
+.main{
+	width: 400px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-bottom: 0px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+h1{
+	text-align: center;
+	background-color: #ccc;
+	padding: 30px;
+	margin-top: 0px;
+}
+.input{
+   	height: 30px;
+}
+input[type="text"]{
+	height: 30px;
+    width: 80%;
+    
+}
+.button{
+    height: 40px;
+}
+ul{
+	list-style: none;
+    text-align: center;
+    margin-left: -40px;
+}
+li{
+	background-color: #ccc;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+span{
+	cursor: pointer;
+	float: right;
+}
+	
+

@@ -1,0 +1,16 @@
+<div class=main>
+<h1>Main List</h1>
+  <div class="input">
+  <form #user = "ngForm">
+    <input type="text" [(ngModel)]="name" placeholder="Add Item" name="name">
+    <button (click) = "pushItem(name)" class="button">Add</button>
+    </form>
+  </div>
+  <ul>
+    <li *ngFor="let a of arr; let in = index"> 
+      {{a}}
+      <span (click) = "close(in)">X</span>
+    </li>
+    
+  </ul>
+</div>
